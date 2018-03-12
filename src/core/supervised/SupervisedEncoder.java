@@ -1,4 +1,6 @@
-package core;
+package core.supervised;
+
+import core.Encoder;
 
 public interface SupervisedEncoder<E, C> extends Encoder<E> {
 	

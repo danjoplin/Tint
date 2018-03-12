@@ -1,5 +1,7 @@
 package core;
 
+import core.views.EncoderView;
+
 public interface Encoder<E> {
 	
 	public int encode(E e);

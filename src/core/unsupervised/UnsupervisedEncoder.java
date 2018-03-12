@@ -1,4 +1,6 @@
-package core;
+package core.unsupervised;
+
+import core.Encoder;
 
 public interface UnsupervisedEncoder<E> extends Encoder<E> {
 	
