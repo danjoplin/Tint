@@ -2,12 +2,21 @@ package core.util;
 
 import java.util.Arrays;
 
-public class FrequencyArray {
+import core.util.combine.Mergeable;
+import core.views.EncoderView;
+
+public class FrequencyArray implements EncoderView, Mergeable<FrequencyArray> {
 	
 	private int[] counts;
 	
 	public FrequencyArray(int size) {
 		this.counts = new int[size];
+	}
+	
+	public void add(FrequencyArray fa) {
+		for (int i=0;i<counts.length;i++) {
+			this.counts[i] += fa.counts[i];
+		}
 	}
 	
 	public void set(int i, int value) {
@@ -26,6 +35,19 @@ public class FrequencyArray {
 		int[] old = this.counts;
 		this.counts = new int[newSize];
 		System.arraycopy(old, 0, this.counts, 0, this.counts.length);
+	}
+
+	@Override
+	public void merge(FrequencyArray other) {
+		this.add(other);
+	}
+	
+	@Override
+	public int hashCode() {
+		int result = 1;
+		for (int element : counts)
+			result = 31 * result + element;
+		return super.hashCode();
 	}
 	
 	@Override

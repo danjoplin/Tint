@@ -6,6 +6,9 @@ public class ProportionArray {
 	private boolean isNormalised = false;
 	
 	private void normalise() {
+		if (isNormalised)
+			return;
+		
 		double sum = 0.;
 		for (double x : proportions)
 			sum += x;

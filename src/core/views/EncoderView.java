@@ -1,5 +1,5 @@
 package core.views;
 
-public interface EncoderView<E> {
+public interface EncoderView {
 
 }

@@ -1,5 +1,5 @@
 package core.views;
 
-public class OrderedEncoderView<E> implements EncoderView<E> {
+public class OrderedEncoderView<E> implements EncoderView {
 
 }
