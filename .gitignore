@@ -3,3 +3,5 @@
 *.classpath
 .settings/org.eclipse.jdt.core.prefs
 *.project
+.metadata/*
+*org.eclipse*

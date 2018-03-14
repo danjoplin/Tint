@@ -19,6 +19,10 @@ public class FrequencyArray implements EncoderView, Mergeable<FrequencyArray> {
 		}
 	}
 	
+	public int sum() {
+		return Arrays.stream(this.counts).sum();
+	}
+	
 	public void set(int i, int value) {
 		this.counts[i] = value;
 	}
