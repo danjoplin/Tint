@@ -1,6 +1,6 @@
-package core.unsupervised.histogram;
+package com.tint.core.unsupervised.histogram;
 
-import core.Encoder;
+import com.tint.core.Encoder;
 
 /**
  * @author Daniel Joplin

@@ -1,4 +1,4 @@
-package core.unsupervised.histogram;
+package com.tint.core.unsupervised.histogram;
 
 public class BinDifference {
 	
@@ -31,9 +31,9 @@ public class BinDifference {
 		return right.min - left.max;
 	}
 	
-	public double gapSize(){
-		return left.max - right.min;
-	}
+//	public double gapSize(){
+//		return right.min - left.max;
+//	}
 	
 	public int size() {
 		if (left == null)

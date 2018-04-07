@@ -1,6 +1,6 @@
-package core.supervised;
+package com.tint.core.supervised;
 
-import core.Encoder;
+import com.tint.core.Encoder;
 
 public interface SupervisedEncoder<E, C> extends Encoder<E> {
 	

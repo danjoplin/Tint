@@ -1,4 +1,4 @@
-package core;
+package com.tint.core;
 
 /**
  * A single variable encoder

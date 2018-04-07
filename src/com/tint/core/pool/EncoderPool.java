@@ -1,9 +1,9 @@
-package core.pool;
+package com.tint.core.pool;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import core.Encoder;
+import com.tint.core.Encoder;
 
 public class EncoderPool {
 	

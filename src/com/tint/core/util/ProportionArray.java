@@ -1,4 +1,4 @@
-package core.util;
+package com.tint.core.util;
 
 public class ProportionArray {
 	

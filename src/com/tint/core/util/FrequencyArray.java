@@ -1,9 +1,9 @@
-package core.util;
+package com.tint.core.util;
 
 import java.util.Arrays;
 
-import core.util.combine.Mergeable;
-import core.views.EncoderView;
+import com.tint.core.util.combine.Mergeable;
+import com.tint.core.views.EncoderView;
 
 public class FrequencyArray implements EncoderView, Mergeable<FrequencyArray> {
 	

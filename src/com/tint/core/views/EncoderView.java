@@ -1,4 +1,4 @@
-package core.views;
+package com.tint.core.views;
 
 public interface EncoderView {
 

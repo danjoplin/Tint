@@ -1,6 +1,6 @@
-package core.unsupervised.histogram;
+package com.tint.core.unsupervised.histogram;
 
-import core.util.combine.Mergeable;
+import com.tint.core.util.combine.Mergeable;
 
 public class HistogramBin implements Mergeable<HistogramBin>, Comparable<HistogramBin> {
 

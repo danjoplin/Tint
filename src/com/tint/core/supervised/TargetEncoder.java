@@ -1,11 +1,11 @@
-package core.supervised;
+package com.tint.core.supervised;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import core.util.FrequencyArray;
-import core.views.EncoderWithViews;
+import com.tint.core.util.FrequencyArray;
+import com.tint.core.views.EncoderWithViews;
 
 public class TargetEncoder<E> implements EncoderWithViews<E, FrequencyArray> {
 

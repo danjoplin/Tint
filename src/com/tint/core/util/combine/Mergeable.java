@@ -1,4 +1,4 @@
-package core.util.combine;
+package com.tint.core.util.combine;
 
 /**
  * @author Daniel B. Joplin
